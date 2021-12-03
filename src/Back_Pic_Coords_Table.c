@@ -2206,42 +2206,42 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_TURTWIG] =
 	{
 		.size = 0x0,
-		.y_offset = 0x6,
+		.y_offset = 0x8,
 	},
 	[SPECIES_GROTLE] =
 	{
 		.size = 0x0,
-		.y_offset = 0xa,
+		.y_offset = 0x7,
 	},
 	[SPECIES_TORTERRA] =
 	{
 		.size = 0x0,
-		.y_offset = 0x4,
+		.y_offset = 0x5,
 	},
 	[SPECIES_CHIMCHAR] =
 	{
 		.size = 0x0,
-		.y_offset = 0x6,
+		.y_offset = 0x3,
 	},
 	[SPECIES_MONFERNO] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 0xe,
 	},
 	[SPECIES_INFERNAPE] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 0x7,
 	},
 	[SPECIES_PIPLUP] =
 	{
 		.size = 0x0,
-		.y_offset = 0x6,
+		.y_offset = 0x5,
 	},
 	[SPECIES_PRINPLUP] =
 	{
 		.size = 0x0,
-		.y_offset = 0x7,
+		.y_offset = 0x0,
 	},
 	[SPECIES_EMPOLEON] =
 	{
@@ -2251,7 +2251,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_STARLY] =
 	{
 		.size = 0x0,
-		.y_offset = 0x6,
+		.y_offset = 0x0,
 	},
 	[SPECIES_STARAVIA] =
 	{
@@ -2261,7 +2261,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_STARAPTOR] =
 	{
 		.size = 0x0,
-		.y_offset = 0x3,
+		.y_offset = 0x4,
 	},
 	[SPECIES_BIDOOF] =
 	{
@@ -2271,7 +2271,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_BIBAREL] =
 	{
 		.size = 0x0,
-		.y_offset = 0x6,
+		.y_offset = 0x0,
 	},
 	[SPECIES_KRICKETOT] =
 	{
@@ -2286,7 +2286,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_SHINX] =
 	{
 		.size = 0x0,
-		.y_offset = 0x8,
+		.y_offset = 0x5,
 	},
 	[SPECIES_LUXIO] =
 	{
@@ -2296,7 +2296,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_LUXRAY] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 0x7,
 	},
 	[SPECIES_BUDEW] =
 	{

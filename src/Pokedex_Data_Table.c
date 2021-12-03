@@ -4650,9 +4650,9 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	},
 	[NATIONAL_DEX_TURTWIG] =
 	{
-		.categoryName = {_T, _i, _n, _y, _SPACE, _L, _e, _a, _f, _END, _SPACE, _SPACE},
-		.height = 4,
-		.weight = 102,
+		.categoryName = {_V, _i, _n, _e, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
+		.height = 7,
+		.weight = 91,
 		.description = DEX_ENTRY_TURTWIG,
 		.unusedDescription = (const u8*) 0x8444cb1,
 		.pokemonScale = 256,
@@ -4662,9 +4662,9 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	},
 	[NATIONAL_DEX_GROTLE] =
 	{
-		.categoryName = {_G, _r, _o, _v, _e, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
-		.height = 11,
-		.weight = 970,
+		.categoryName = {_V, _i, _n, _e, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
+		.height = 18,
+		.weight = 966,
 		.description = DEX_ENTRY_GROTLE,
 		.unusedDescription = (const u8*) 0x8444cb1,
 		.pokemonScale = 256,
@@ -4674,21 +4674,21 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	},
 	[NATIONAL_DEX_TORTERRA] =
 	{
-		.categoryName = {_C, _o, _n, _t, _i, _n, _e, _n, _t, _END, _SPACE, _SPACE},
-		.height = 22,
-		.weight = 3100,
+		.categoryName = {_B, _a, _l, _l, _o, _o, _n, _END, _SPACE, _SPACE, _SPACE, _SPACE},
+		.height = 8,
+		.weight = 57,
 		.description = DEX_ENTRY_TORTERRA,
 		.unusedDescription = (const u8*) 0x8444cb1,
-		.pokemonScale = 256,
+		.pokemonScale = 430,
 		.pokemonOffset = 0,
 		.trainerScale = 256,
-		.trainerOffset = 0,
+		.trainerOffset = 65534,
 	},
 	[NATIONAL_DEX_CHIMCHAR] =
 	{
-		.categoryName = {_C, _h, _i, _m, _p, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
-		.height = 5,
-		.weight = 62,
+		.categoryName = {_A, _n, _c, _h, _o, _r, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
+		.height = 16,
+		.weight = 997,
 		.description = DEX_ENTRY_CHIMCHAR,
 		.unusedDescription = (const u8*) 0x8444cb1,
 		.pokemonScale = 256,
@@ -4698,9 +4698,9 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	},
 	[NATIONAL_DEX_MONFERNO] =
 	{
-		.categoryName = {_P, _l, _a, _y, _f, _u, _l, _END, _SPACE, _SPACE, _SPACE, _SPACE},
-		.height = 9,
-		.weight = 220,
+		.categoryName = {_K, _i, _t, _t, _e, _n, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
+		.height = 3,
+		.weight = 87,
 		.description = DEX_ENTRY_MONFERNO,
 		.unusedDescription = (const u8*) 0x8444cb1,
 		.pokemonScale = 256,
@@ -4710,9 +4710,9 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	},
 	[NATIONAL_DEX_INFERNAPE] =
 	{
-		.categoryName = {_F, _l, _a, _m, _e, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
-		.height = 12,
-		.weight = 550,
+		.categoryName = {_T, _i, _n, _y, _SPACE, _C, _a, _t, _END, _SPACE, _SPACE, _SPACE},
+		.height = 4,
+		.weight = 38,
 		.description = DEX_ENTRY_INFERNAPE,
 		.unusedDescription = (const u8*) 0x8444cb1,
 		.pokemonScale = 256,
@@ -4722,9 +4722,9 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	},
 	[NATIONAL_DEX_PIPLUP] =
 	{
-		.categoryName = {_P, _e, _n, _g, _u, _i, _n, _END, _SPACE, _SPACE, _SPACE, _SPACE},
-		.height = 4,
-		.weight = 52,
+		.categoryName = {_B, _l, _e, _s, _s, _i, _n, _g, _END, _SPACE, _SPACE, _SPACE},
+		.height = 9,
+		.weight = 253,
 		.description = DEX_ENTRY_PIPLUP,
 		.unusedDescription = (const u8*) 0x8444cb1,
 		.pokemonScale = 256,
@@ -4734,9 +4734,9 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	},
 	[NATIONAL_DEX_PRINPLUP] =
 	{
-		.categoryName = {_P, _e, _n, _g, _u, _i, _n, _END, _SPACE, _SPACE, _SPACE, _SPACE},
+		.categoryName = {_S, _p, _i, _r, _a, _l, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
 		.height = 8,
-		.weight = 230,
+		.weight = 1563,
 		.description = DEX_ENTRY_PRINPLUP,
 		.unusedDescription = (const u8*) 0x8444cb1,
 		.pokemonScale = 256,
@@ -4746,9 +4746,9 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	},
 	[NATIONAL_DEX_EMPOLEON] =
 	{
-		.categoryName = {_E, _m, _p, _e, _r, _o, _r, _END, _SPACE, _SPACE, _SPACE, _SPACE},
-		.height = 17,
-		.weight = 845,
+		.categoryName = {_P, _i, _t, _c, _h, _e, _r, _END, _SPACE, _SPACE, _SPACE, _SPACE},
+		.height = 20,
+		.weight = 143,
 		.description = DEX_ENTRY_EMPOLEON,
 		.unusedDescription = (const u8*) 0x8444cb1,
 		.pokemonScale = 256,
@@ -4758,9 +4758,9 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	},
 	[NATIONAL_DEX_STARLY] =
 	{
-		.categoryName = {_S, _t, _a, _r, _l, _i, _n, _g, _END, _SPACE, _SPACE, _SPACE},
-		.height = 3,
-		.weight = 20,
+		.categoryName = {_S, _h, _o, _w, _t, _i, _m, _e, _END, _SPACE, _SPACE, _SPACE},
+		.height = 15,
+		.weight = 1107,
 		.description = DEX_ENTRY_STARLY,
 		.unusedDescription = (const u8*) 0x8444cb1,
 		.pokemonScale = 256,
@@ -4770,9 +4770,9 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	},
 	[NATIONAL_DEX_STARAVIA] =
 	{
-		.categoryName = {_S, _t, _a, _r, _l, _i, _n, _g, _END, _SPACE, _SPACE, _SPACE},
-		.height = 6,
-		.weight = 155,
+		.categoryName = {_T, _i, _n, _y, _SPACE, _T, _i, _g, _e, _r, _END, _SPACE},
+		.height = 3,
+		.weight = 43,
 		.description = DEX_ENTRY_STARAVIA,
 		.unusedDescription = (const u8*) 0x8444cb1,
 		.pokemonScale = 256,
@@ -4782,9 +4782,9 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	},
 	[NATIONAL_DEX_STARAPTOR] =
 	{
-		.categoryName = {_P, _r, _e, _d, _a, _t, _o, _r, _END, _SPACE, _SPACE, _SPACE},
-		.height = 12,
-		.weight = 249,
+		.categoryName = {_F, _e, _r, _o, _c, _i, _o, _u, _s, _END, _SPACE, _SPACE},
+		.height = 10,
+		.weight = 3084,
 		.description = DEX_ENTRY_STARAPTOR,
 		.unusedDescription = (const u8*) 0x8444cb1,
 		.pokemonScale = 256,
@@ -4794,9 +4794,9 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	},
 	[NATIONAL_DEX_BIDOOF] =
 	{
-		.categoryName = {_P, _l, _u, _m, _p, _SPACE, _M, _o, _u, _s, _e, _END},
-		.height = 5,
-		.weight = 200,
+		.categoryName = {_V, _o, _o, _d, _o, _o, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
+		.height = 2,
+		.weight = 13,
 		.description = DEX_ENTRY_BIDOOF,
 		.unusedDescription = (const u8*) 0x8444cb1,
 		.pokemonScale = 256,
@@ -4806,9 +4806,9 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	},
 	[NATIONAL_DEX_BIBAREL] =
 	{
-		.categoryName = {_B, _e, _a, _v, _e, _r, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
-		.height = 10,
-		.weight = 315,
+		.categoryName = {_H, _o, _p, _p, _i, _n, _g, _END, _SPACE, _SPACE, _SPACE, _SPACE},
+		.height = 17,
+		.weight = 454,
 		.description = DEX_ENTRY_BIBAREL,
 		.unusedDescription = (const u8*) 0x8444cb1,
 		.pokemonScale = 256,
@@ -4818,9 +4818,9 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	},
 	[NATIONAL_DEX_KRICKETOT] =
 	{
-		.categoryName = {_C, _r, _i, _c, _k, _e, _t, _END, _SPACE, _SPACE, _SPACE, _SPACE},
-		.height = 3,
-		.weight = 22,
+		.categoryName = {_S, _n, _o, _w, _SPACE, _C, _o, _a, _t, _END, _SPACE, _SPACE},
+		.height = 8,
+		.weight = 272,
 		.description = DEX_ENTRY_KRICKETOT,
 		.unusedDescription = (const u8*) 0x8444cb1,
 		.pokemonScale = 256,
@@ -4830,9 +4830,9 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	},
 	[NATIONAL_DEX_KRICKETUNE] =
 	{
-		.categoryName = {_C, _r, _i, _c, _k, _e, _t, _END, _SPACE, _SPACE, _SPACE, _SPACE},
-		.height = 10,
-		.weight = 255,
+		.categoryName = {_F, _u, _r, _r, _y, _SPACE, _C, _o, _a, _t, _END, _SPACE},
+		.height = 12,
+		.weight = 816,
 		.description = DEX_ENTRY_KRICKETUNE,
 		.unusedDescription = (const u8*) 0x8444cb1,
 		.pokemonScale = 256,
@@ -4842,9 +4842,9 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	},
 	[NATIONAL_DEX_SHINX] =
 	{
-		.categoryName = {_F, _l, _a, _s, _h, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
-		.height = 5,
-		.weight = 95,
+		.categoryName = {_B, _e, _t, _a, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
+		.height = 6,
+		.weight = 405,
 		.description = DEX_ENTRY_SHINX,
 		.unusedDescription = (const u8*) 0x8444cb1,
 		.pokemonScale = 256,
@@ -4854,9 +4854,9 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	},
 	[NATIONAL_DEX_LUXIO] =
 	{
-		.categoryName = {_S, _p, _a, _r, _k, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
-		.height = 9,
-		.weight = 305,
+		.categoryName = {_G, _o, _u, _r, _m, _e, _t, _END, _SPACE, _SPACE, _SPACE, _SPACE},
+		.height = 17,
+		.weight = 1233,
 		.description = DEX_ENTRY_LUXIO,
 		.unusedDescription = (const u8*) 0x8444cb1,
 		.pokemonScale = 256,
@@ -4866,9 +4866,9 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	},
 	[NATIONAL_DEX_LUXRAY] =
 	{
-		.categoryName = {_G, _l, _e, _a, _m, _SPACE, _E, _y, _e, _s, _END, _SPACE},
-		.height = 14,
-		.weight = 420,
+		.categoryName = {_F, _r, _e, _s, _h, _SPACE, _S, _l, _i, _c, _e, _END},
+		.height = 9,
+		.weight = 25,
 		.description = DEX_ENTRY_LUXRAY,
 		.unusedDescription = (const u8*) 0x8444cb1,
 		.pokemonScale = 256,
@@ -8958,14 +8958,14 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	},
 	[NATIONAL_DEX_WISHIWASHI] =
 	{
-		.categoryName = {_S, _m, _a, _l, _l, _SPACE, _F, _r, _y, _END, _SPACE, _SPACE},
-		.height = 2,
-		.weight = 3,
-		.description = DEX_ENTRY_WISHIWASHI,
+		.categoryName = {_F, _r, _e, _s, _h, _SPACE, _S, _l, _i, _c, _e, _END},
+		.height = 9,
+		.weight = 25,
+		.description = DEX_ENTRY_LUXRAY,
 		.unusedDescription = (const u8*) 0x8444cb1,
-		.pokemonScale = 0,
+		.pokemonScale = 256,
 		.pokemonOffset = 0,
-		.trainerScale = 0,
+		.trainerScale = 256,
 		.trainerOffset = 0,
 	},
 	[NATIONAL_DEX_MAREANIE] =
